@@ -1,0 +1,41 @@
+[{
+      "id": 1,
+      "name": "Las Palmas"
+   },
+   {
+      "id": 2,
+      "name": "Vienna"
+   },
+   {
+      "id": 3,
+      "name": "Barcelona"
+   },
+   {
+      "id": 4,
+      "name": "Honolulu"
+   },
+   {
+      "id": 5,
+      "name": "London"
+   },
+   {
+      "id": 6,
+      "name": "Panama City"
+   },
+   {
+      "id": 7,
+      "name": "San Diego"
+   },
+   {
+      "id": 8,
+      "name": "Hong Kong"
+   },
+   {
+      "id": 9,
+      "name": "Kuala Lumpur"
+   },
+   {
+      "id": 10,
+      "name": "Istanbul"
+   }
+]

@@ -1,0 +1,38 @@
+.FreeEvent {
+  background-color: #5fde68;
+  font-weight: normal;
+  color: white;
+  padding: 7px 10px;
+  margin: 0 50px;
+}
+
+.EventContainer {
+  border: 2px solid #00b7c7;
+  padding: 15px;
+  margin: 10px 0;
+  color: white;
+}
+
+.EventList {
+  display: flex;
+  justify-content: space-between
+}
+
+.BTN {
+  background-color: #00b7c7;
+  color: white;
+  width: 120px;
+  border: 0;
+}
+
+.BTN:hover {
+  background-color: #278d96;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .EventContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,17 @@
+.Table {
+  width: 100%
+}
+
+.TimeCol {
+  width: 10%
+}
+
+.MainCol {
+  width: 80%
+}
+
+.BTN {
+  background-color: #00b7c7;
+  color: white;
+  width: 120px;
+}

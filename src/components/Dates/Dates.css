@@ -1,0 +1,13 @@
+.Date {
+  background-color: #e65a5c;
+  color: white;
+  width: 180px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Date p {
+  margin: 10px;
+}

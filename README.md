@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Readme
 
-## Available Scripts
+Run Mock API: `json-server --watch src/assets/events.json --port 4000`
 
-In the project directory, you can run:
 
-### `npm start`
+EventCal is a SPA with the following views:
+* “All events” view where the user can see all the tech.
+* “My events” view where the user can see the ones which they signed up for.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Tech stack used:
+* React
+* ES6
+* CSS
+* HTML
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Task 1 - mock an API
+**1.1 Mockup:** Included are two JSON files with data: events.json and cities.json. The objective of this task is to mock up (just mock up!) a REST API that returns the data contained in the JSON files.
 
-### `npm test`
+## Task 2 - “all events” view
+**2.1 All events view** is the view where you can see all the events and the information about them.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Task 3 - Event sign up
+**3.1 Sign up** Next to each event, there is a button to sign up. When clicking, a
+confirmation modal will appear and the user can sign up or cancel. 
 
-### `npm run build`
+## Task 4 “my events” view
+**4.1 My events view** After signing up in some events in the all events view,
+the user wants to see which ones they have signed up. From this view, the user can cancel
+the attendance to the event by clicking on the cancel button.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## TODO
+**2.2 Filters** Add three filters above the list where the user can:
+ - Search by the name of the event and/or the city [searchbar]
+ - Show only the free ones [check box]
+ - Show only the events that occur during the morning (6am - 12 pm), afternoon (12pm - 17pm), evening (17pm - 21pm) or night (21pm - 6am) [dropdown]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**2.3 Responsive layout** Create a responsive layout.

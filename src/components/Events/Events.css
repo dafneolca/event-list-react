@@ -1,0 +1,48 @@
+.App {
+  background-color: #23273d !important;
+}
+
+.EventsBox {
+  width: 70%;
+  margin: auto;
+  padding: 0px 0px 100px 0;
+  min-height: 100vh;
+}
+
+.TabContainer {
+  background-color: #00b7c7 !important;
+  border: 0 !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 15% !important;
+}
+
+.TabContainer>a {
+  color: white !important;
+  border: 0 !important;
+  background-color: #00b7c7 !important;
+}
+
+.TabContainer>a:hover {
+  border: 0 !important;
+  font-weight: bolder;
+}
+
+
+.TabContainer>a.active {
+  background-color: #d6bc5e !important;
+  color: white !important;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.MyEventsHeader {
+  padding: 15px 0;
+  color: white;
+}
+
+.MyEventsHeader h4 {
+  color: #5fde68;
+}

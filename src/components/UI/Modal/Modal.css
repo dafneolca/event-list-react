@@ -1,0 +1,59 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 50%;
+  /* border: 1px solid #ccc; */
+  box-shadow: 1px 1px 1px black;
+  left: 25%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.Button {
+  /* background-color: #007cad; */
+  color: white;
+  width: 100px;
+  height: 30px;
+  margin: 0 10px
+}
+
+.Confirm {
+  background-color: #5fde68;
+}
+
+.Cancel {
+  background-color: #e65a5c;
+}
+
+.Confirm:hover {
+  background-color: #76d67c;
+}
+
+.Cancel:hover {
+  background-color: #e27678;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ModalHeader {
+  display: flex;
+  justify-Content: center;
+  background-color: #23273d !important;
+  color: white;
+  padding: 10px 0;
+
+}
+
+.ClosingX {
+  position: relative;
+  left: 250px
+}
+
+.ClosingX:hover {
+  cursor: pointer;
+}
