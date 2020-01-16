@@ -32,7 +32,7 @@
 
 
 .TabContainer>a.active {
-  background-color: #d6bc5e !important;
+  background-color: orange !important;
   color: white !important;
   border: 0;
   margin-bottom: 0;

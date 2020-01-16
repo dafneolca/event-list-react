@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './MyEvents.css';
 
-
 class MyEvents extends Component {
   state = {
     hover: false

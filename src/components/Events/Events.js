@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './Events.css';
-import Cities from '../../assets/cities.json';
-
+import Cities from '../../assets/data/cities.json';
 import Event from '../Event/Event';
-
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-
 import Dates from '../Dates/Dates';
-
 import Modal from '../UI/Modal/Modal';
-
 import MyEvents from '../MyEvents/MyEvents';
 
 
@@ -92,7 +87,7 @@ class Events extends Component {
       if (city.id === cityID) {
         return city.name
       }
-      else { return null } //CHECK
+      else { return null }
     })
     this.setState({
       selectedEventID: this.state.events[id].id,
@@ -149,7 +144,7 @@ class Events extends Component {
         )
       })
       return (
-        <div>
+        <div key={date + eventName}>
           <Dates date={date}></Dates>
           {eventName}
         </div>
@@ -164,7 +159,6 @@ class Events extends Component {
           eventName={this.state.selectedEventName}
           city={this.state.selectedEventCity}
           eventDate={this.state.selectedEventDate} />
-
         <div>
           <Tabs className="TabContainer" defaultActiveKey="allEvents" id="uncontrolled-tab-example">
             <Tab eventKey="allEvents" title="All events">
@@ -172,7 +166,6 @@ class Events extends Component {
                 {eventDates}
               </div>
             </Tab>
-
             <Tab eventKey="myEvents" title="My events">
               <div className='EventsBox'>
                 <div className="MyEventsHeader">

@@ -28,10 +28,7 @@ class Event extends Component {
             <tr>
               <th className="TimeCol">{this.props.startTime}</th>
               <th className="MainCol">{this.props.name}
-
                 {this.props.free ? <span className="FreeEvent"> Free Event</span> : null}
-
-
               </th>
               <th> {this.props.attendance ? leaveEventButton : attendButton}</th>
             </tr>
