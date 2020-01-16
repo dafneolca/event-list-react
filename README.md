@@ -1,29 +1,30 @@
 # Readme
 
 Run Mock API: `json-server --watch src/assets/events.json --port 4000`
+
 Run Frontend: `npm start`
 
 ## EventCal is a SPA with the following views:
-* “All events” view where the user can see all the tech.
-* “My events” view where the user can see the ones which they signed up for.
+* `All events` view where the user can see all the tech.
+* `My events` view where the user can see the ones which they signed up for.
 
-### Tech stack used:
+### Tech stack used:
 * React
 * ES6
 * CSS
 * HTML
 
-## 1 - mock an API
+#### 1 - Mock an API
 **1.1 Mockup:** Included are two JSON files with data: events.json and cities.json. The objective is to mock up a REST API that returns the data contained in the JSON files.
 
-## 2 - “all events” view
+#### 2 - `All events` view
 **2.1 All events view** is the view where you can see all the events and the information about them.
 
-## 3 - Event sign up
+#### 3 - Event sign up
 **3.1 Sign up** Next to each event, there is a button to sign up. When clicking, a
 confirmation modal will appear and the user can sign up or cancel. 
 
-## 4 “my events” view
+#### 4 `My events` view
 **4.1 My events view** After signing up in some events in the all events view,
 the user wants to see which ones they have signed up. From this view, the user can cancel
 the attendance to the event by clicking on the cancel button.
